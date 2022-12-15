@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Document</title>
@@ -12,42 +13,42 @@
     <header>
         <nav class="navbar navbar-expand-lg text-white bg-dark">
             <div class="container-fluid">
-                <a href="#" href="#scrollspyHeading4" class="nav-link link-light btn mx-5 px-5">Mohi Mark</a>
-                <ul class="d-flex list-unstyled gap-5 items-center justify-content-center mt-2 mx-5">
-                    <li>Porfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li><i class="fa-regular fa-envelope"></i></li>
+                <a href="#scrollspyHeading4" class="nav-link link-light btn mx-2 px-5">Mohi Mark</a>
+                <ul class="row list-unstyled gap-5 items-center justify-content-center mt-4 mx-5">
+                    <li class="col-md col-sm-1">Porfolio</li>
+                    <li class="col-md col-sm-1">About</li>
+                    <li class="col-md col-sm-1">Contact</li>
+                    <li class="col-md col-sm-1"><i class="fa-regular fa-envelope"></i></li>
                 </ul>
             </div>
         </nav>
     </header>
     
-    <section class="d-flex .bg-image" style="background-image: url(./img/desktop-ver.png); width: 100 vh; height: 100vh;">
-        <div class="d-flex flex-row items-center ">
-            <div class="align-self-center">
-                <ul class="d-flex flex-column list-unstyled gap-2 items-center justify-content-center mt-2 mx-5">
-                    <li>
+    <section class="container-fluid w-100 page1-img .bg-image">
+        <div class="row justify-content-center ">
+            <div class="col-3 align-self-center pt-5">
+                <ul class="container list-unstyled items-center mx-5 justify-content-center mt-2">
+                    <li class="row">
                         <a href="https://github.com/mohisa302">
                             <img class="w-22 h-22" src="./img/icon1.png" alt="github icon">
                         </a>
                     </li>
-                    <li >
+                    <li  class="row">
                         <a href="https://www.linkedin.com/in/rachelisaac13">
                             <img class="w-22 h-22" src="./img/icon2.png" alt="linkedin icon">
                         </a>
                     </li>
-                    <li>
+                    <li  class="row">
                         <a href="#">
                             <img class="w-22 h-22" src="./img/icon3.png" alt="victory icon">
                         </a>
                     </li>
-                    <li>
+                    <li  class="row">
                         <a href="https://twitter.com/Kholochelam">
                             <img class="w-22 h-22" src="./img/icon4.png" alt="twitter icon">
                         </a>
                     </li>
-                    <li>
+                    <li  class="row">
                         <a href="#">
                             <img class="w-22 h-22" src="./img/icon5.png" alt="Medium icon">
                         </a>
@@ -55,10 +56,10 @@
                 </ul>          
             </div>
 
-            <div class="align-self-center">
-                <h1 class="text-warning display-5">Hey There.<br>We're Mohi and Mark</h1>
-                <h2 class="text-white">I'm a Software Developer</h2>
-                <p class="text-white w-50">
+            <div class="col align-self-center pt-5">
+                <h1 class="h1-text">Hey There.<br>We're Mohi and Mark</h1>
+                <h2 class="h2-text">I'm a Software Developer</h2>
+                <p class="p-page1 w-50">
                     I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                     don’t hestiate to contact me.
                 </p>
@@ -67,25 +68,25 @@
     </section>
 
 
-    <section>
-        <div class="d-flex  align-items-center mt-3 justify-content-start">
-        <h3 class="mt-5 mx-5 w-50 ">MY Recent Works</h3>
-        <hr class="w-75 mt-5 mx-5 " style="border-top: 1px solid #8c8b8b;">
+    <section class="container-fluid">
+        <div class="row align-items-center mt-3 justify-content-center" >
+        <h3 class="col-5 align-self-end works_header-text mt-5">MY Recent Works</h3>
+        <hr class="col-5 mt-5"/>
         </div>
-        <div class="d-flex mt-5 mx-5 gap-5 pt-5">
-            <img class="w-100 h-100" src='./img/img1.png' alt="image of one project"> 
-            <div class="align-self-start" >
+        <div class="row mt-5 gap-2 pt-5 justify-content-center">
+            <img class="col mx-2 align-self-center card1-img" src='./img/img1.png' alt="image of one project"> 
+            <div class="col row align-self-center" >
                 <h2 class="">Multi-Post Stories</h2>
-                <p class="w-50 h-70 lh-28">
+                <p class=" h-70">
                     A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a standard dummy text.
                 </p>  
                 <ul class="d-flex list-unstyled gap-2 items-center mt-2">
                     <li>
-                        <span class="badge bg-light text-dark border border-dark py-3 px-3">css</span>
+                        <span class="col badge bg-light text-dark border border-dark py-3 px-3">css</span>
                     </li>
                     <li>
-                        <span class="badge bg-light text-dark border border-dark py-3 px-3">html</span>
+                        <span class="col badge bg-light text-dark border border-dark py-3 px-3">html</span>
                     </li>
                     <li>   
                         <span class="badge bg-light text-dark border border-dark py-3 px-3">bootstrap</span>                     
@@ -94,7 +95,7 @@
                         <span class="badge bg-light text-dark border border-dark py-3 px-3">Ruby</span>
                     </li>
                 </ul>    
-                <button type="button" class="btn btn-warning text-white">See Project</a>
+                <button type="button" class="btn bg-warning w-25 mx-3 ">See Project</a>
             </div>
         </div>
     </section>
@@ -235,8 +236,8 @@
  
     </section>
 
-    <section class="mt-5" style="background-image: url(/img/about.png); width: 100%; height: 150vh;">
-        <section class="bg-image" >
+    <section class="mt-5">
+        <section class="bg-image" style="background-image: url(/img/about.png); width: 100%; height: 100vh;">
             <h2 class="text-warning display-1 px-5 py-5">About me</h2>
             <p class="text-white px-5 w-50">
                 Hello I'm a software developer! I can help you build a product,
@@ -244,41 +245,39 @@
                 If you like what you see and have a project you need coded, don't
                 hestiate to contact me.
             </p>
-            <button type="button" class="btn btn-warning text-white mx-5 mt-3">Get My Resume</button>
+            <button type="button" class="btn btn-warning text-white mx-5 mt-3" data-bs-toggle="modal" data-bs-target="#languageModal">Get My Resume</button>
         </section>
-        <hr style="margin-top: 15rem; color: #fff; width: 80%; margin-left: 8rem;"/>
-        <section class="container mt-5 pt-5 align-items-start gap-5">
-            <div class="row">
-            <ul class="col-md-3 d-flex flex-column list-unstyled gap-2 items-center justify-content-center mt-2 mx-5 text-white">
-                <li class="" style="font-size: 32px;"><i class="fa-solid fa-square skills-icon icon-transform" style="color: orange;"></i>Language</li>
-                <li style="font-size: 18px;">Javascript</li>
-                <li style="font-size: 18px;">Ruby</li>
-                <li style="font-size: 18px;">Html</li>
-                <li style="font-size: 18px;">Css</li>
+        <hr />
+        <section class="modal" id="languageModal">
+            <ul class="">
+                <li class="list-header"><i class="fa-solid fa-square skills-icon icon-transform"></i>Language</li>
+                <li class="text-white">Javascript</li>
+                <li class="text-white">Ruby</li>
+                <li class="text-white">Html</li>
+                <li class="text-white">Css</li>
             </ul>
-             <ul class="col-md-3 d-flex flex-column list-unstyled gap-2 items-center justify-content-center mt-2 mx-5 text-white">
-                <li class="" style="font-size: 32px;"><i class="fa-solid fa-square skills-icon" style="color: orange;"></i>Frameworks</li>
-                <li class="" style="font-size: 18px;">Bootstrap</li>
-                <li class="" style="font-size: 18px;">Ruby on Rails</li>
-                <li class="" style="font-size: 18px;">RSPec</li>
-                <li class="" style="font-size: 18px;">CapyBara</li>
-                <li class="" style="font-size: 18px;">Selenium</li>
+             <ul class="">
+                <li class=""><i class="fa-solid fa-square skills-icon"></i>Frameworks</li>
+                <li class="">Bootstrap</li>
+                <li class="">Ruby on Rails</li>
+                <li class="">RSPec</li>
+                <li class="">CapyBara</li>
+                <li class="">Selenium</li>
             </ul>
-            <ul class="col-md-3 d-flex flex-column list-unstyled gap-2 items-center justify-content-center mt-2 mx-5 text-white">
-                <li class="" style="font-size: 32px;"><i class="fa-solid fa-circle skills-icon" style="color: orange;"></i>Skills</li>
-                <li class="" style="font-size: 18px;">Codekit</li>
-                <li class="" style="font-size: 18px;">Github</li>
-                <li class="" style="font-size: 18px;">Codepen</li>
-                <li class="" style="font-size: 18px;">Gitlab</li>
-                <li class="" style="font-size: 18px;">Terminal</li>
+            <ul class="">
+                <li class=""><i class="fa-solid fa-circle skills-icon"></i>Skills</li>
+                <li class="">Codekit</li>
+                <li class="">Github</li>
+                <li class="">Codepen</li>
+                <li class="">Gitlab</li>
+                <li class="">Terminal</li>
             </ul>
-            </div>
         </section>
     </section>
 
-    <footer class="container g-3">
-        <div class="row g-3">
-        <p class="col-md-2 w-50 h2 px-5 pt-4">I'm always interested in hearing about new projects,
+    <footer class="container-fluid  g-3">
+        <div class="row g-3 m-0 p-0">
+        <p class="col-md-2 w-50 h2 pt-4">I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.</p>
         <form class="col-md-2 mb-3 w-50" action="https://formspree.io/f/moqbgdbk" method="post">
             <label for="formGroupExampleInput" class="form-label invisible ">full name</label>
@@ -294,7 +293,7 @@
     <ul class="d-flex list-unstyled gap-2 items-center justify-content-center mt-2 mx-5">
         <li>
             <a href="https://github.com/mohisa302">
-                <img class="w-22 h-22" src="./img/icon1.png" alt="github icon">
+                <img class="w-22 h-22 icon" src="./img/icon1.png" alt="github icon">
             </a>
         </li>
         <li >

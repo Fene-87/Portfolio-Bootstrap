@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto&display=swap");
+
+.works_header-text {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+ 
+.btn {
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+.card-img {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(./img/card2.png);
+  background-repeat: no-repeat;
+}
+
+.card2 {
+    
+}
+
+.page1-img {
+    background-image: url(./img/desktop-ver.png); 
+    height: 110vh;
+}
+
+.icon {
+    color: #091e42;
+}
+
+.h1-text {
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  color: #ff6b00;
+}
+
+.h2-text {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+}
+
+.p-page1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
