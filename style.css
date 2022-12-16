@@ -9,7 +9,7 @@
   line-height: 52px;
   color: #1c1a19;
 }
- 
+
 .btn {
   background: #ff6b00;
   color: #fff;
@@ -22,17 +22,13 @@
   background-repeat: no-repeat;
 }
 
-.card2 {
-    
-}
-
 .page1-img {
-    background-image: url(./img/desktop-ver.png); 
-    height: 110vh;
+  background-image: url(./img/desktop-ver.png);
+  height: 110vh;
 }
 
 .icon {
-    color: #091e42;
+  color: #091e42;
 }
 
 .h1-text {
@@ -51,4 +47,149 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #fff;
+}
+
+.third-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+}
+
+.about-me {
+  padding-top: 3rem;
+  background-image: url(./img/Group-resized.png);
+  background-repeat: no-repeat;
+  background-position: 400px 420px;
+  height: 600px;
+  width: 100%;
+}
+
+.about-me h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  height: 50px;
+  margin-left: 24px;
+}
+
+.about-me p {
+  height: 148px;
+  margin-top: 15px;
+  margin-left: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.about-button {
+  margin-left: 24px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 3%;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+}
+
+.third-section hr {
+  width: 300px;
+  color: #f4f5f7;
+}
+
+.icon-transform {
+  transform: rotate(-45deg);
+}
+
+.sec-two-div {
+  padding: 0;
+  margin: 0;
+  width: 369px;
+  height: 435px;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/img/card2.png);
+  background-repeat: no-repeat;
+}
+
+.list-header {
+  font-size: 32px;
+}
+
+.list-items {
+  font-size: 18px;
+}
+
+.icon-color {
+  color: orange;
+}
+
+.bottom-hr {
+  border-top: 1px solid #8c8b8b;
+}
+
+@media screen and (min-width: 768px) {
+  .third-section {
+    max-width: 1440px;
+    height: 1150px;
+  }
+
+  .about-me {
+    margin-left: 80px;
+    background-image: url(./img/Frame-two.png);
+    background-position: 920px 120px;
+    height: 600px;
+    max-width: 1346px;
+  }
+
+  .about-me h2 {
+    margin-left: 24px;
+  }
+
+  .about-me p {
+    margin-top: 15px;
+    margin-left: 24px;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+  }
+
+  .about-button {
+    margin-left: 24px;
+  }
+
+  .third-section hr {
+    width: 1200px;
+  }
+
+  .frameworks {
+    height: 596px;
+    max-width: 1200px;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 0;
+    justify-content: space-between;
+  }
+
+  .skill-items {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px;
+    margin-top: 120px;
+  }
+
+  .list-header {
+    width: 228px;
+    font-size: 32px;
+  }
+
+  .items {
+    font-size: 20px;
+  }
 }

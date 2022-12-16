@@ -8,5 +8,23 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "name": "portfolio-bootstrap",
+  "description": "<a name=\"readme-top\"></a>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fene-87/Portfolio-Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fene-87/Portfolio-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Fene-87/Portfolio-Bootstrap#readme"
 }
