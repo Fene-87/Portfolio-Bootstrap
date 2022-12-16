@@ -57,7 +57,9 @@ In order to run this project you need:
 
 
 👤 **Author2**
-
+- GitHub: [@mohisa302](https://github.com/mohisa302)
+- Twitter: [@Kholochelam](https://twitter.com/Kholochelam)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mohadese-sadeghi-692551199/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
