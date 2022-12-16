@@ -53,7 +53,9 @@ In order to run this project you need:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
-
+- GitHub: [@Fene-87](https://github.com/Fene-87)
+- Twitter: [@markfen](https://twitter.com/markfen4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-fenekayas-67378220b/)
 
 
 👤 **Author2**
